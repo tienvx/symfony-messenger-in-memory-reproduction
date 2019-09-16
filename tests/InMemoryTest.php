@@ -3,14 +3,13 @@
 
 namespace App\Tests;
 
-use Exception;
 use App\Message\SimpleMessage;
 use App\Service\SimpleDispatchService;
 use App\Service\SimpleReceiveService;
+use Exception;
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\Component\Console\Input\StringInput;
-use Symfony\Component\Console\Tester\CommandTester;
 
 class InMemoryTest extends KernelTestCase
 {
